@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/selectedTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:background="#012C31"
+        android:text="13:11 PM"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/selectedDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#033137"
+        android:text="4th December 2023"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="45dp" />
+
+    <Button
+        android:id="@+id/selectTimeBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="35dp"
+        android:background="#3F51B5"
+        android:backgroundTint="#3F51B5"
+        android:text="Select Time"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/setAlarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="35dp"
+        android:background="@color/cardview_dark_background"
+        android:text="Set Alarm"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/cancelTimeBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="35dp"
+        android:background="@color/cardview_dark_background"
+        android:text="Cancel Time"
+        android:textSize="25dp" />
+
+</LinearLayout>
